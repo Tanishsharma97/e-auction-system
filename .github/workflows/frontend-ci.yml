@@ -31,3 +31,6 @@ jobs:
 
       - name: Build React application
         run: npm run build
+
+      - name: Build Docker image
+        run: docker build -t e-auction-frontend .
